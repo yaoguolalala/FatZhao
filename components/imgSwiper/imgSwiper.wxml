@@ -1,0 +1,13 @@
+<!--components/swiper/swiper.wxml-->
+<view class = "imgSwiper">
+  <swiper indicator-dots="true"
+          autoplay="true"
+          interval="5000"
+          circular="true">
+    <block>
+        <swiper-item class="swieprItem" wx:key="key" wx:for="{{swiperObj}}" wx:for-item="item">
+          <image class="imgbox" mode="scaleToFill" src="{{item.src}}" alt="{{item.alt}}"/>
+        </swiper-item>
+    </block>
+  </swiper>
+</view>

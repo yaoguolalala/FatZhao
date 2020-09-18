@@ -1,0 +1,10 @@
+/* components/swiper/swiper.wxss */
+
+.swieprItem{
+  width: 100%;
+  height: 150px;
+}
+.imgbox{
+  width: 100%;
+  height: 100%;
+}

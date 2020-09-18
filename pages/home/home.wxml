@@ -1,0 +1,19 @@
+<!--pages/home/home.wxml-->
+<view>
+  <view class = "page">
+    <view class="headAdd">
+      <view class = "addrTo" bindtap="mapUp">
+       <text>送至: {{targetAddr}} </text>
+       <icon class="iconfont icon-xiala"></icon>
+      </view>
+    </view>
+    <view class="search" bindtap="searchPage">
+      <view class="searchText">
+        <icon class="iconfont icon-search"></icon>
+        <text>请输入商品关键词</text>   
+      </view>
+    </view>
+    <imgSwiper swiperObj="{{swiperObj}}"></imgSwiper>
+  </view>
+
+</view>
